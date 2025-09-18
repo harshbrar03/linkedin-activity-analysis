@@ -7,6 +7,9 @@ The main focus is on **Python analysis**, while Tableau serves as an additional 
 ---
 
 ## Project Workflow  
+
+![Project Workflow](assets/workflow.png)  
+
 1. **Data Export** → Downloaded raw LinkedIn archive.  
 2. **Data Cleaning (Python, Pandas)**  
    - Processed `connections.csv` and `messages.csv`.  
@@ -18,6 +21,12 @@ The main focus is on **Python analysis**, while Tableau serves as an additional 
    - Text analysis: word cloud and sentiment analysis.  
 4. **Dashboard Creation (Tableau)**  
    - Interactive presentation of key insights from Python analysis.  
+
+---
+
+## Tech Stack  
+- **Python:** Pandas, Matplotlib, Seaborn, WordCloud, nltk, TextBlob 
+- **Tableau Public:** Dashboard & Storytelling  
 
 ---
 
@@ -39,7 +48,7 @@ linkedin-activity-analysis/
 
 ## Python Analysis  
 
-The bulk of the analysis was carried out in Python & Jupyter Notebook:  
+The analysis was carried out in Python & Jupyter Notebook:  
 
 ### 1. Messaging Activity Over Time  
 ![Messages Over Time](assets/messages_over_time.png)  
@@ -73,21 +82,15 @@ To make the findings more engaging, I created an interactive Tableau story based
 
 ---
 
-## Tech Stack  
-- **Python:** Pandas, Matplotlib, Seaborn, WordCloud, nltk, TextBlob 
-- **Tableau Public:** Dashboard & Storytelling  
-
----
-
-## Key Learnings  
-- Practiced **end-to-end data wrangling & analysis** on a personal dataset.  
-- Applied **text analysis and sentiment analysis** to real-world conversations.  
-- Used **Tableau** to convert Python analysis into a professional dashboard.  
-- Demonstrated **both technical (Python) and visualization (BI tool)** skills in one project.  
+## Key Findings 
+- **Network Growth Patterns**: Consistent growth in connections year over year, with noticeable spikes in the year 2025.
+- **Messaging Trends**: I have sent fewer messages than received, showing higher inbound engagement.
+- **Message Content & Word Usage**: The word cloud highlights recurring professional themes in my conversations.
+- **Sentiment Analysis**: The messages lean slightly positive on average, with expressions of appreciation and networking friendliness.
 
 ---
 
 ## About the Data  
 - Data comes from LinkedIn’s official **data export tool**.  
-- Sensitive fields (message content, contact names) were **dropped or anonymized** before publishing.  
+- Sensitive fields (message content, contact names) were **dropped/ anonymized** before publishing.  
 - Project is for **personal analytics and portfolio purposes only**.  
