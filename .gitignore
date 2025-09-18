@@ -1,0 +1,13 @@
+# Ignore raw LinkedIn data
+*.csv
+*.xlsx
+
+# Ignore Tableau workbooks
+*.twb
+*.twbx
+*.twbr
+
+# Ignore Python/Jupyter cache
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
